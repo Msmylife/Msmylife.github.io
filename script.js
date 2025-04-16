@@ -1,1 +1,1 @@
-Sample content for script.js
+console.log('Zwide Roots loaded');
