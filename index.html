@@ -2,32 +2,108 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Billionaire Blueprint</title>
-  
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-HYVYKX5SWV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-HYVYKX5SWV');
-</script>
-
+  <title>Billionaire Blueprint | Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HYVYKX5SWV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-HYVYKX5SWV');
+  </script>
+
   <style>
-    body { font-family: 'Segoe UI', sans-serif; background: #111; color: #eee; padding: 50px; text-align: center; }
-    h1 { font-size: 2.5em; margin-bottom: 20px; }
-    p { font-size: 1.2em; margin-bottom: 40px; }
-    form { margin: 30px 0; }
-    .btn { background: #0f0; color: #000; padding: 15px 30px; font-size: 1.1em; border: none; border-radius: 10px; cursor: pointer; }
-    .btn:hover { background: #000; color: #0f0; border: 2px solid #0f0; }
-    input[type="email"] { padding: 10px; border-radius: 10px; border: none; width: 300px; font-size: 1em; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #ffffff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #f8f8f8;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    h1 {
+      font-size: 2.8em;
+      color: #222;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.1em;
+      color: #666;
+      margin-bottom: 30px;
+    }
+    .btn {
+      background-color: #007bff;
+      color: white;
+      padding: 12px 24px;
+      font-size: 1em;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 20px;
+      display: inline-block;
+    }
+    .btn:hover {
+      background-color: #0056b3;
+    }
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+      border-radius: 8px;
+      margin-top: 40px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f1f1f1;
+      margin-top: 50px;
+      color: #777;
+    }
   </style>
 </head>
 <body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="buy-now.html">Buy</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-  <h1>Welcome to Billionaire Blueprint</h1>
-  <p>Trading Bots • Mining Analytics • Passive Income</p>
-  <a href="buy-now.html" class="btn">Buy Now</a>
+  <div class="container">
+    <h1>Welcome to Billionaire Blueprint</h1>
+    <p>Unlock financial power with our premium trading bots, real-time performance tracking, and passive income tools.</p>
+    <a href="buy-now.html" class="btn">View Our Bots</a>
+
+    <iframe src="https://www.tradingview.com/widgetembed/?symbol=FX_IDC:USDZAR&interval=D&theme=light&style=1&timezone=Africa%2FJohannesburg" allowfullscreen></iframe>
+
+    <h2 style="margin-top: 50px;">Subscribe for Updates</h2>
+    <form action="https://formsubmit.co/businessmyne3@gmail.com" method="POST">
+      <input type="hidden" name="_autoresponse" value="Thank you for subscribing to Billionaire Blueprint. Expect top-level financial insights.">
+      <input type="email" name="email" placeholder="Enter your email" required style="padding:10px; font-size:1em; width:300px; border-radius:6px; border:1px solid #ccc;">
+      <button type="submit" class="btn">Subscribe</button>
+    </form>
+  </div>
+
+  <footer>
+    &copy; 2025 Euvette Lo Media Pty Ltd. All rights reserved.
+  </footer>
 </body>
 </html>
